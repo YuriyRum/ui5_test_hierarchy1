@@ -1,0 +1,9 @@
+{
+	"data":{
+	"root":{"id":"10000000","name":"root","checked":false,"childs":[
+		{"id":"10000001","name":"Department0","checked":false,"childs":[{"id":"10000002","name":"Department1","checked":false}],
+			"plans":[{"id":"plans1","name":"plans1"},{"id":"plans2","name":"plans2","hide":true}]},
+		{"id":"10000003","name":"Department3","checked":false,"childs":[{"id":"10000004","name":"Department4","checked":false}]}
+	]}
+	}
+}

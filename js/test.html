@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script>
+			var data = {
+				id:"level_01",
+				childs:[{
+				id:"level_02",
+				childs:[{id:"level_03",plans:[{id:"plans1"}]}]
+				}]
+			};
+			//prepare data
+			data.plans = data.plans || [];
+			data.plans = data.childs[0].childs[0].plans;
+			data.childs[0].childs[0].plans[0].id = "test";
+			alert(data.plans[0].id);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
